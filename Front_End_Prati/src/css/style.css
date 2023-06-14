@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+  
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 8rem;
+  border-bottom: 2px solid black;
+  margin-inline: 30px;
+}
+a {
+  text-decoration: none;
+  text-decoration-line: none;
+ 
+}
+h2 {
+  font-size: 2rem;
+}
+
+.navbar a{
+  margin-left: 3rem;
+  font-size: 1.5rem;
+}
+ul {
+  list-style: none;
+  text-align: start;
+}
+li {
+  font-size: 1.5rem;
+}
+
+.content {
+  margin-block: 200px;
+}
+#titles {
+ margin-left: 30px;
+  }
+/**/
+.texto-inicio{
+  margin-top: 60px ;
+  font-size: 2rem;
+  margin-left: 50px;
+}
+/*paragrafos */
+.paragrafos {
+  margin-block: 200px;
+  text-align: center;
+  font-size: 5rem;
+}
+
+/* imagems*/
+.image{
+  width: 1250px;
+  margin-left: 50px;
+  
+}
+/* button*/
+.botao-redondo-learn{
+  display: inline-flex;
+  align-items: center;
+  padding: 16px 32px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #fff;
+  color: #000;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.seta-learn{
+  color: #000;
+  background-color: #fff;
+  margin-left: 10px;
+}
+/**/
+.rodape {
+  margin-bottom: 0px;
+}
+.flex-container {
+  display: flex;
+ }
+
+.flex-container > div {
+  text-align: center;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.last-item-container {
+  display: inline-flex;
+  align-items: center;
+  
+}
+
+.ul-block li {
+  margin-bottom: 30px;
+}
+
+.ul-block {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.ul-lis ul{
+  margin-left: 50px;
+}
+
+/**/
+.borda{
+  position: absolute;
+  top: 2430px;
+}
+.lista-inline {
+  position: absolute;
+  left: 850px;
+  display: flex;
+  flex-direction: row;
+}
+.inline-item {
+  margin-right: 10px;
+  margin-top: -10px;
+}
+.lista-inline li {
+  margin-left: 50px;
+}
+.botao-redondo{
+  display: inline-flex;
+  align-items: center;
+  padding: 16px 32px;
+  text-align: center;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  
+}
+
+.seta {
+  margin-left: 10px; /* Ajuste a distância entre o texto e a seta */
+}
+@media screen and (min-width: 1368px){
+   .lista-inline {
+    left: 1250px;
+    
+  }
+  .image{
+    width: 1800px;
+    margin-left: 50px;
+    
+  }
+  .borda{
+    
+    top: 2785px;
+  }
+}
+
+
+
+
+
+
+
